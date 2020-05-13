@@ -35,7 +35,7 @@ function App() {
     let response = await api.delete(`/repositories/${id}`);
     //let repository = response.data;
 
-    //console.log(response.status);
+    //console.log(response.status);;
 
     if(response.status === 204){
 
